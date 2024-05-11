@@ -1,0 +1,44 @@
+.group {
+    /*background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(241, 241, 241));*/
+    border-radius: 5px;
+}
+
+.info-price {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-cardd {
+    height: 0.5vh;
+    background-color: rgb(99,156,156);
+}
+
+.main-info {
+    /*background-color: green;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.icon-enrolll {
+    color: rgb(44,84,84);
+    font-size: 5rem;
+    margin-right: 20px;
+}
+
+.div-enroll {
+    /*background-color: red;*/
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
+
+.image-card {
+    border-radius: 8px;
+}

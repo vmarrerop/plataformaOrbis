@@ -1,0 +1,54 @@
+.barra-categories {
+    /*background-color: green;*/
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    overflow-x: auto;
+}
+
+.category-item {
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-width: 0;
+    border-color: black;
+    border-width: 0 1px 0 0;
+    margin-bottom: 6px;
+    /*background-color: red;*/
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 0.5vh;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(206, 206, 206);
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 5vh;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(119,198,201);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+    cursor: pointer;
+  }
+
+  .separador-cat {
+    margin-inline: 0px;
+  }
